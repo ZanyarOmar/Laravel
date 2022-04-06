@@ -26,7 +26,7 @@
         }
         img{
             width: 300px;
-            height: 300px;
+            height:350px;
         }
     </style>
 </head>
@@ -38,10 +38,22 @@
         <div>
             <div>
                 <h1 style="text-align: center; margin: 0">Biography</h1>
-                <p style="padding-left:10px;padding-right:10px;">
-                    My name is Zanyar Omar, i was born and raised in Sulaimaniyah Kurdistan. I am twenty years old and
-                    I am a student in Sulaimaniyah Polythechnic University, Technical College of Informatics. I major in Informtion Technlology with a minor in business.
-                </p>
+                <ul style="padding-left:10px;padding-right:10px;">
+                    <li>
+                        My name is Zanyar Omar, i was born and raised in Sulaimaniyah Kurdistan. I am twenty years old and
+                        I am a student in Sulaimaniyah Polythechnic University, Technical College of Informatics. I major in Informtion Technlology with a minor in business.
+                    </li>
+                    <li>
+                        Birthdate: October 15th 2001
+                    </li>
+                    <li>
+                        Education: Sulaimaniyah Polythechnic University.
+                        2019-present
+                    </li>
+                    <li>
+                        Interests: Football, Formula one, MMA and sports in general.
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
