@@ -8,32 +8,44 @@
 
     <style>
         html{
-            background-color: lightgray;
+            background-color: white;
         }
-        h1{
-            padding-top: 20px
+        .flex-container{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            width: 80%;
+            margin: 0 auto;
+            min-height: 400px;
+            background-color: #d1e5e1;
+        }
+        .flex-container > div{
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
         }
         img{
-            width: 100px;
-            height: 100px;
-            float: left;
-            margin: 0 20px 0 20px;
-        }
-        div{
-            box-shadow: 5px 5px 5px black;
+            width: 300px;
+            height: 300px;
         }
     </style>
 </head>
 <body>
-    <div style="width: 80%; margin: 0 auto; background: grey; border-radius: 5px; min-height: 250px">
-        <h1 style="text-align: center">Biography</h1>
-        <img src="pics/test.jpg" alt="picture">
-        <p style="font-size: 20px; text-align:center;padding-left:10px;padding-right:10px; margin: 20px">
-            My name is Zanyar Omar, i was born and raised in Sulaimaniyah Kurdistan. I am twenty years old and
-            I am a student in Sulaimaniyah Polythechnic University, Technical College of Informatics. I major in Informtion Technlology with a minor in business.
-        </p>
-        <a href="bio.blade.php"></a>
+    <div class="flex-container">
+        <div>
+            <img src="pics/test.jpg" alt="picture">
+        </div>
+        <div>
+            <div>
+                <h1 style="text-align: center; margin: 0">Biography</h1>
+                <p style="padding-left:10px;padding-right:10px;">
+                    My name is Zanyar Omar, i was born and raised in Sulaimaniyah Kurdistan. I am twenty years old and
+                    I am a student in Sulaimaniyah Polythechnic University, Technical College of Informatics. I major in Informtion Technlology with a minor in business.
+                </p>
+            </div>
+        </div>
     </div>
+    
     
 </body>
 </html>
