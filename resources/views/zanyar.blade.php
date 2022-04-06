@@ -12,15 +12,22 @@
         }
         a{
             color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: white;
+            padding: 15px; 
         }
-        a:hover{
+        /* a:hover{
             color: lightgrey;
-        }
+        } */
         h1{
             padding-top: 20px
         }
         p{
             padding-bottom: 20px;
+        }
+        div{
+            box-shadow: 5px 5px 5px black;
         }
     </style>
 </head>

@@ -19,6 +19,9 @@
             float: left;
             margin: 0 20px 0 20px;
         }
+        div{
+            box-shadow: 5px 5px 5px black;
+        }
     </style>
 </head>
 <body>
