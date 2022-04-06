@@ -33,7 +33,7 @@
 <body>
     <div class="flex-container">
         <div>
-            <img src="pics/test.jpg" alt="picture">
+            <img src="pics/Photo.jpg" alt="picture">
         </div>
         <div>
             <div>
